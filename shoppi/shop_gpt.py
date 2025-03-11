@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 st.session_state['username'] = USER_PREFIX
-logo_path = os.path.join(os.getcwd(), "static","openshopgpt.png")
+logo_path = os.path.join(os.getcwd(), "static","osgpt_favicon.png")
 st.logo(logo_path)
 
 with st.sidebar:
