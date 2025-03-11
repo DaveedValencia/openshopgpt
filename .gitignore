@@ -172,4 +172,4 @@ cython_debug/
 
 shop.db
 shoppi/.streamlit/secrets.toml
-creds
+creds/*
