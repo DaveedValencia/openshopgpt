@@ -1,0 +1,18 @@
+{
+    "name": "ecommerce_sales",
+    "description": "Generates a Shopify ecommerce report about sales, orders, customers, or products purchased. It accepts the user input and returns a data table with the answer.",
+    "strict": true,
+    "parameters": {
+      "type": "object",
+      "required": [
+        "user_input"
+      ],
+      "properties": {
+        "user_input": {
+          "type": "string",
+          "description": "The user input."
+        }
+      },
+      "additionalProperties": false
+    }
+  }

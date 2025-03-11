@@ -1,0 +1,6 @@
+google-analytics-data
+klaviyo-api
+openai
+pandas
+ShopifyAPI
+streamlit

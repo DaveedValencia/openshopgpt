@@ -1,0 +1,23 @@
+{
+    "name": "status_report",
+    "description": "Returns a detailed report about the digital marketing operations. If the user only provides a year then assume they want the full year for start_date and end_date. The tool has access to real time date data.",
+    "strict": true,
+    "parameters": {
+      "type": "object",
+      "required": [
+        "start_date",
+        "end_date"
+      ],
+      "properties": {
+        "start_date": {
+          "type": "string",
+          "description": "Start date of the report in YYYY-MM-DD format"
+        },
+        "end_date": {
+          "type": "string",
+          "description": "End date of the report in YYYY-MM-DD format"
+        }
+      },
+      "additionalProperties": false
+    }
+  }

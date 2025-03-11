@@ -1,0 +1,18 @@
+{
+    "name": "google_analytics_data",
+    "description": "Returns website traffic performance. Show the data in an organized matter and provide a summary with analysis and make recommendations.",
+    "strict": true,
+    "parameters": {
+      "type": "object",
+      "required": [
+        "user_input"
+      ],
+      "properties": {
+        "user_input": {
+          "type": "string",
+          "description": "The input from the user regarding their google analytics."
+        }
+      },
+      "additionalProperties": false
+    }
+  }

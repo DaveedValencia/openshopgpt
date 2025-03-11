@@ -1,0 +1,18 @@
+{
+    "name": "email_campaign_data",
+    "description": "A performance report for email campaigns. It has access to email metrics and email conversions such as orders placed attributed to email. It also has access to subject lines and preview text.",
+    "strict": true,
+    "parameters": {
+      "type": "object",
+      "required": [
+        "user_input"
+      ],
+      "properties": {
+        "user_input": {
+          "type": "string",
+          "description": "The input from the user regarding the email campaign queries"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
