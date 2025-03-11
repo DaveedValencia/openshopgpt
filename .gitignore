@@ -171,4 +171,5 @@ cython_debug/
 .pypirc
 
 shop.db
-openshopgpt/shoppi/.streamlit/secrets.toml
+shoppi/.streamlit/secrets.toml
+creds
