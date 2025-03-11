@@ -171,5 +171,3 @@ cython_debug/
 .pypirc
 
 shop.db
-shoppi/.streamlit/secrets.toml
-creds/*
